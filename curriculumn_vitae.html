@@ -295,12 +295,12 @@
         <aside class="sidebar">
             <div class="sidebar-profile">
                 <img src="https://scontent.fsgn16-1.fna.fbcdn.net/v/t39.30808-6/487413855_2716929355157240_2937313037340241253_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHK5MG5_Rgfdn8uPevhqhVet2uRW91IQ1q3a5Fb3UhDWl1Yw2pZYypTzBWzJlUqMI6eAbjB6xPOaF1RoF48IqDJ&_nc_ohc=QMgdQ6B5JPIQ7kNvwEYZw1d&_nc_oc=AdlMGotxgHHBVw-ZF25ST4glQRWeW5R2acdaGR5fqMScNiX3WqlBbnkDOqZt2m41Fj-Qgjw2zgiRftTTANSxTJjX&_nc_zt=23&_nc_ht=scontent.fsgn16-1.fna&_nc_gid=tCs3WqPzPEBeCkI4u0xgEg&oh=00_AfKx0EWFwBSsbaZ-YzRjjwh58DXjF8ONsru4ZzpPnD4zig&oe=683BCF1D" alt="Profile" class="sidebar-profile-img">
-                <div class="sidebar-profile-name"><a href="https://github.com/sangnt2903/sangnt2903.github.io">Project: Me</a></div>
+                <div class="sidebar-profile-name">Project: Me</div>
             </div>
             <nav class="sidebar-nav">
                 <ul>
-                    <li><a href="./index.html" class="active"><i class="fab fa-golang"></i>introduce.go</a></li>
-                    <li><a href="./curriculumn_vitae.html"><i class="fab fa-golang"></i>curriculumn_vitae.go</a></li>
+                    <li><a href="./index.html"><i class="fab fa-golang"></i>introduce.go</a></li>
+                    <li><a href="./curriculumn_vitae.html"  class="active"><i class="fab fa-golang"></i>curriculumn_vitae.go</a></li>
                     <!-- <li><a href="#devops"><i class="fab fa-golang"></i>devops.go</a></li>
                     <li><a href="#messaging"><i class="fab fa-golang"></i>messaging.go</a></li>
                     <li><a href="#monitoring"><i class="fab fa-golang"></i>monitoring.go</a></li>
@@ -315,33 +315,13 @@
         </aside>
         <main class="main-content">
             <div class="hero-code-box">
-                <div><span style="color:#bbb;">01</span> <span class="code-bold"><span class="code-blue">func</span> (me *Me) <span class="code-orange">Introduce</span>() &#123;</span></div>
-                <div><span style="color:#bbb;">02</span> &nbsp; &nbsp; <span class="code-bold">me.</span></div>
-                <div><span style="color:#bbb;">03</span> &nbsp; &nbsp; &nbsp; &nbsp; <span class="code-bold" style="color:#0077cc">WithName(<span style="color:#b3a20f">"Nguyen Thanh Sang"</span>).</span></div>
-                <div><span style="color:#bbb;">04</span> &nbsp; &nbsp; &nbsp; &nbsp; <span class="code-bold" style="color:#0077cc">WithPosition(<span style="color:#dd3232">"Senior Software Engineer"</span>).</span></div>
-                <div><span style="color:#bbb;">05</span> &nbsp; &nbsp; &nbsp; &nbsp; <span class="code-bold" style="color:#0077cc">WithDOB(<span style="color:#008000">29 / 03 / 1998</span>).</span></div>
-                <div><span style="color:#bbb;">06</span> &nbsp; &nbsp; &nbsp; &nbsp; <span class="code-bold" style="color:#0077cc">WithGender(<span style="color:#008000">"male"</span>).</span></div>
-                <div><span style="color:#bbb;">07</span> &nbsp; &nbsp; &nbsp; &nbsp; <span class="code-bold" style="color:#0077cc">WithPhone(<span style="color:#008000">"+84 971 890 712"</span>).</span></div>
-                <div><span style="color:#bbb;">08</span> &nbsp; &nbsp; &nbsp; &nbsp; <span class="code-bold" style="color:#0077cc">WithEmail(<span style="color:#008000">"sangoit.work@gmail.com"</span>).</span></div>
-                <div><span style="color:#bbb;">09</span> &nbsp; &nbsp; &nbsp; &nbsp; <span class="code-bold" style="color:#0077cc">WithEducation(Education&#123;</span></div>
-                <div><span style="color:#bbb;">10</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="code-bold" style="color:#a02111">School: <span style="color:#008000">"University of Education, HCM City"</span>,</span></div>
-                <div><span style="color:#bbb;">11</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="code-bold" style="color:#a02111">Degree: <span style="color:#008000">"Bachelor of Science"</span>,</span></div>
-                <div><span style="color:#bbb;">12</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="code-bold" style="color:#a02111">Major: <span style="color:#008000">"Computer Science"</span>,</span></div>
-                <div><span style="color:#bbb;">13</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="code-bold" style="color:#a02111">GradYear: <span style="color:#008000">2020</span>,</span></div>
-                <div><span style="color:#bbb;">14</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="code-bold" style="color:#a02111">Title: <span style="color:#008000">"Very good"</span>,</span></div>
-                <div><span style="color:#bbb;">15</span> &nbsp; &nbsp; &nbsp; &nbsp; <span class="code-bold" style="color:#0077cc">&#125;).</span></div>
-                <div><span style="color:#bbb;">16</span> &nbsp; &nbsp; &nbsp; &nbsp; <span class="code-bold" style="color:#0077cc">WithAddress(Address&#123;</span></div>
-                <div><span style="color:#bbb;">17</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="code-bold" style="color:#a02111">City: <span style="color:#008000">"Thu Dau Mot"</span>,</span></div>
-                <div><span style="color:#bbb;">18</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="code-bold" style="color:#a02111">Province: <span style="color:#008000">"Binh Duong"</span>,</span></div>
-                <div><span style="color:#bbb;">19</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="code-bold" style="color:#a02111">State: <span style="color:#008000">"Vietnam"</span>,</span></div>
-                <div><span style="color:#bbb;">20</span> &nbsp; &nbsp; &nbsp; &nbsp; <span class="code-bold">&#125;)</span></div>
-                <div><span style="color:#bbb;">21</span></div>
-
-                <div><span style="color:#bbb;">22</span> &nbsp; &nbsp; <span class="code-bold">me.<span style="color: #0077cc;">ThankYouForYourReading()</span></span></div>
-                <div><span style="color:#bbb;">23</span></div>
-                <div><span style="color:#bbb;">24</span> &nbsp; &nbsp; <span class="code-bold">me.<span style="color: #0077cc;">Sincerely()</span></span></div>
-                <div><span style="color:#bbb;">25</span> &#125;</div>
+                <div><span style="color:#bbb;">01</span> <span class="code-bold"><span class="code-blue">func</span> (me *Me) <span class="code-orange">DownloadCV</span>() &#123;</span></div>
+                <div><span style="color:#bbb;">02</span> &nbsp; &nbsp;&nbsp; <span class="code-bold">me.<span style="color: #0077cc;">downloadCV()</span></span></div>
+                <div><span style="color:#bbb;">03</span> &#125;</div>
             </div>
+            <button class="readmore-btn">
+                <a href="https://drive.google.com/file/d/1UcAkBuRdUPHT3h2vVLMIHcu2EEbYrdxk/view?usp=drive_link" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;display:inline-block;">Download</a> <i class="fas fa-arrow-down"></i>
+            </button>
             <div class="floating-icons">
                 <i class="fab fa-golang floating-icon" style="top: 60%; left: 12%; font-size:2.6rem;"></i>
                 <i class="fab fa-docker floating-icon" style="top: 80%; left: 48%;"></i>
